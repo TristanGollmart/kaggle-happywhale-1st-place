@@ -24,7 +24,7 @@ from src.utils import WarmupCosineLambda, map_dict, topk_average_precision
 
 def parse():
     parser = argparse.ArgumentParser(description="Training for HappyWhale")
-    parser.add_argument("--out_base_dir", default="result")
+    parser.add_argument("--out_base_dir", default="checkpoints")
     parser.add_argument("--in_base_dir", default="input")
     parser.add_argument("--exp_name", default="tmp")
     parser.add_argument("--load_snapshot", action="store_true")

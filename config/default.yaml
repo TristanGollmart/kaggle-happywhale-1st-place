@@ -10,7 +10,7 @@ model_name:
 out_indices:
 - 3
 - 4
-n_splits: 5
+n_splits: -1
 num_classes: 15587
 num_species_classes: 26
 pretrained: true
